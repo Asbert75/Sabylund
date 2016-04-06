@@ -1,0 +1,111 @@
+﻿
+	* {
+		font-family: "Georgia", "Bookman Old Style";
+		
+	}
+	
+	li {
+		display: inline-block;
+	}
+	
+	a:hover {
+		text-decoration: none;
+		color: black;
+	}
+	
+	a {
+		transition: all 0.5s linear;
+		color: black;
+	}
+	
+	.logo {
+		position: relative;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%)		
+	}
+	
+	.header {
+		margin-top: 2em;
+	}
+	
+	a {
+		font-family: "Georgia", "Bookman Old Style";
+		font-size: 1.1em;
+		margin-left: 2.3em;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	.navigation {
+		margin-top: 2em;
+	}
+	
+	.slider {
+		margin-top: 2em;
+	}
+	
+	.social {
+		margin-top: 2em;
+	}
+	
+	.social img {
+		width: 225px;
+		height: 225px;
+	}
+	
+	.testPlaceholder {
+		margin-left: 4.5em;
+	}
+	
+	.navigation ul li a:hover {
+		background: #C49478;
+		color: white;
+		transition: color 0.3s linear;
+		transition: background 0.5s linear;
+	}
+	
+	.navigation ul li a {
+		padding: 0.4em;
+	}
+	
+	
+	h2 {
+		font-size: 1.3em;
+		padding: 0.2em;
+		margin-bottom: 5px;
+	}
+	
+	.instaEdge {
+		font-weight: 600;
+	}
+	
+	.flex-next, .flex-prev {
+		font-size: 2em;
+		opacity: 0.5;
+		transition: all 0.2s linear;
+	}
+	
+	.flex-next:hover, .flex-prev:hover {
+		opacity: 1;
+		transition: all 0.2s linear;
+		color: #C49478;
+	}
+	
+	body {
+		background: url("patterns/rockywall.png") repeat;
+		/* Pattern licensed under https://creativecommons.org/licenses/by-sa/3.0/ Taken from http://subtlepatterns.com/rocky-wall/ -- It has not been modified */
+	}
+	
+	a.instagramLink {
+		margin-left: 0.5em;
+		font-size: 0.9em;
+		padding: 0.3em;
+	}
+	
+	a.instagramLink:hover {
+		background: #C49478;
+		color: white;
+		transition: color 0.3s linear;
+		transition: background 0.5s linear;
+	}
