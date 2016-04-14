@@ -1,111 +1,227 @@
-﻿
-	* {
-		font-family: "Georgia", "Bookman Old Style";
-		
-	}
-	
-	li {
-		display: inline-block;
-	}
-	
-	a:hover {
-		text-decoration: none;
-		color: black;
-	}
-	
-	a {
-		transition: all 0.5s linear;
-		color: black;
-	}
-	
-	.logo {
-		position: relative;
-		left: 50%;
-		margin-right: -50%;
-		transform: translate(-50%)		
-	}
-	
-	.header {
-		margin-top: 2em;
-	}
-	
-	a {
-		font-family: "Georgia", "Bookman Old Style";
-		font-size: 1.1em;
-		margin-left: 2.3em;
-		text-transform: uppercase;
-		text-align: center;
-	}
+body {
+    background: url("patterns/rockywall.png") repeat;
+    /* Pattern licensed under https://creativecommons.org/licenses/by-sa/3.0/ Taken from http://subtlepatterns.com/rocky-wall/ -- It has not been modified */
+}
 
-	.navigation {
-		margin-top: 2em;
-	}
+* {
+    font-family: "Georgia", "Bookman Old Style";
+		
+}
+
+.loga {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.loga h1 {
+    font-size: 4em;
+}
+
+.loga p {
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+}
+
+li {
+    display: inline;
+}
 	
-	.slider {
-		margin-top: 2em;
-	}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
 	
-	.social {
-		margin-top: 2em;
-	}
+a {
+    font-family: "Georgia", "Bookman Old Style";
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.5s linear;
+    color: black;
+}
+
+.navigation {
+    margin-top: 2em;
+}
+
+.navItem {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
 	
-	.social img {
-		width: 225px;
-		height: 225px;
-	}
+.navigation ul li a:hover {
+	background: #C49478;
+	color: white;
+	transition: color 0.3s linear;
+	transition: background 0.5s linear;
+}
 	
-	.testPlaceholder {
-		margin-left: 4.5em;
-	}
-	
-	.navigation ul li a:hover {
-		background: #C49478;
-		color: white;
-		transition: color 0.3s linear;
-		transition: background 0.5s linear;
-	}
-	
-	.navigation ul li a {
-		padding: 0.4em;
-	}
-	
-	
-	h2 {
-		font-size: 1.3em;
-		padding: 0.2em;
-		margin-bottom: 5px;
-	}
-	
-	.instaEdge {
-		font-weight: 600;
-	}
-	
-	.flex-next, .flex-prev {
-		font-size: 2em;
-		opacity: 0.5;
-		transition: all 0.2s linear;
-	}
-	
-	.flex-next:hover, .flex-prev:hover {
-		opacity: 1;
-		transition: all 0.2s linear;
-		color: #C49478;
-	}
-	
-	body {
-		background: url("patterns/rockywall.png") repeat;
-		/* Pattern licensed under https://creativecommons.org/licenses/by-sa/3.0/ Taken from http://subtlepatterns.com/rocky-wall/ -- It has not been modified */
-	}
-	
-	a.instagramLink {
-		margin-left: 0.5em;
-		font-size: 0.9em;
-		padding: 0.3em;
-	}
-	
-	a.instagramLink:hover {
-		background: #C49478;
-		color: white;
-		transition: color 0.3s linear;
-		transition: background 0.5s linear;
-	}
+.navigation ul li a {
+	padding: 0.4em;
+}
+
+h2 {
+	font-size: 1.3em;
+	padding: 0.2em;
+	margin-bottom: 5px;
+}
+
+.instaEdge {
+	font-weight: 600;
+}
+
+.sliderNavigation {
+    text-align: center;
+}
+
+.glyphicon-circle-arrow-left {
+    margin-top: 0.5em;
+    margin-right: 5em;
+}
+
+.glyphicon-circle-arrow-right {
+    margin-top: 0.5em;
+    margin-left: 5em;
+}
+
+.flex-next, .flex-prev {
+	font-size: 2em;
+	opacity: 0.5;
+	transition: all 0.2s linear;
+}
+
+.flex-next:hover, .flex-prev:hover {
+	opacity: 1;
+	transition: all 0.2s linear;
+	color: #C49478;
+}
+
+a.instagramLink {
+	margin-left: 0.5em;
+	font-size: 0.9em;
+	padding: 0.3em;
+}
+
+a.instagramLink:hover {
+	background: #C49478;
+	color: white;
+	transition: color 0.3s linear;
+	transition: background 0.5s linear;
+}
+
+nav {
+    text-align: center;
+}
+
+.mobileShow {
+    display: none;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1000px) {
+    .mobileHide {
+        display: none !important;
+    }
+
+    .mobileShow {
+        display: block !important;
+    }
+    
+    .instagramFeed {
+        text-align: center;
+        margin-top: 2em;
+    }
+}
+
+
+.facebook {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url("images/icons.png");
+    background-position: 0px 0px;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid #C49478;
+}
+
+.facebook:hover {
+    transition: all 0.3s ease;
+    background-position: 0px -32px;
+}
+
+.instagram {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url("images/icons.png");
+    background-position: -32px 0px;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid #C49478;
+}
+
+.instagram:hover {
+    transition: all 0.3s ease;
+    background-position: -32px -32px;
+}
+
+.contact {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url("images/icons.png");
+    background-position: -64px 0px;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid #C49478;
+}
+
+.contact:hover {
+    transition: all 0.3s ease;
+    background-position: -64px -32px;
+}
+
+.location {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url("images/icons.png");
+    background-position: -96px 0px;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid #C49478;
+}
+
+.location:hover {
+    transition: all 0.3s ease;
+    background-position: -96px -32px;
+}
+
+a.hoverbubble {
+  position: relative;
+}
+
+a.hoverbubble span {
+    display: none;
+}
+
+a.hoverbubble:hover span {
+	display: block;
+	position: absolute;
+	padding: 0.5em;
+	text-align: center;
+	white-space: nowrap;
+	top: -60px;
+    left: 0%;
+	background: #C49478;
+	color: white;
+	font-size: 0.86em;
+}
+
+.instaFeed {
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
