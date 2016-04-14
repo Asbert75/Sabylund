@@ -28,7 +28,6 @@ li {
 	
 a:hover {
     text-decoration: none;
-    color: black;
 }
 	
 a {
@@ -37,7 +36,7 @@ a {
     text-transform: uppercase;
     text-align: center;
     transition: all 0.5s linear;
-    color: black;
+    color: #C49478;
 }
 
 .navigation {
@@ -77,23 +76,24 @@ h2 {
 .glyphicon-circle-arrow-left {
     margin-top: 0.5em;
     margin-right: 5em;
+    color: black;
 }
 
 .glyphicon-circle-arrow-right {
     margin-top: 0.5em;
     margin-left: 5em;
+    color: black;
 }
 
 .flex-next, .flex-prev {
-	font-size: 2em;
-	opacity: 0.5;
 	transition: all 0.2s linear;
+    color: black;
+    font-size: 2em;
 }
 
-.flex-next:hover, .flex-prev:hover {
-	opacity: 1;
+.glyphicon-circle-arrow-right:hover, .glyphicon-circle-arrow-left:hover {
 	transition: all 0.2s linear;
-	color: #C49478;
+    color: #C49478;
 }
 
 a.instagramLink {
@@ -223,5 +223,7 @@ a.hoverbubble:hover span {
     margin-right: auto;
 }
 
-
+.disableEvents {
+    pointer-events: none;
+}
 
