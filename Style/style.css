@@ -3,9 +3,13 @@ body {
     /* Pattern licensed under https://creativecommons.org/licenses/by-sa/3.0/ Taken from http://subtlepatterns.com/rocky-wall/ -- It has not been modified */
 }
 
-* {
+h1, h2, h3, h4, a {
     font-family: "Georgia", "Bookman Old Style";
 		
+}
+
+p {
+    font-family: "Verdana";
 }
 
 .loga {
@@ -17,7 +21,7 @@ body {
     font-size: 4em;
 }
 
-.loga p {
+.loga h2 {
     font-size: 1.5em;
     letter-spacing: 0.5em;
 }
@@ -57,6 +61,11 @@ a {
 	
 .navigation ul li a {
 	padding: 0.4em;
+}
+
+.active {
+    background: #C49478;
+    color: white;
 }
 
 h2 {
@@ -227,3 +236,49 @@ a.hoverbubble:hover span {
     pointer-events: none;
 }
 
+
+.indexParagraph {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.indexText {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.footer a {
+    font-family: "Verdana";
+    text-transform: capitalize;
+    padding: 0.4em;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 5em;
+    margin-top: 5em;
+}
+
+.footer a:hover {
+    background: #C49478;
+	color: white;
+	transition: color 0.3s linear;
+	transition: background 0.5s linear;
+}
+
+.createdBy {
+    margin-top: 1em;
+}
+
+.indexParagraph h2 { 
+    color: #333333; 
+    font-size: 2em;
+    padding-left: 0;
+    border-bottom: 3px solid #C49478;
+}
+
+
+.indexParagraph p { 
+    font-family: Verdana;
+    font-size: 1em;
+}
