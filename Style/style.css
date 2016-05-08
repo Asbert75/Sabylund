@@ -282,3 +282,28 @@ a.hoverbubble:hover span {
     font-family: Verdana;
     font-size: 1em;
 }
+
+
+
+
+.bildrad {
+    margin-bottom:  3em;
+}
+
+.bild1 {
+    background: url('../images/9.jpg') no-repeat;
+    background-size: 100%;
+    height: 16em;
+}
+
+.bild2 {
+    background: url('../images/10.jpg') no-repeat;
+    background-size: 100%;
+    height: 16em;
+}
+
+.bild3 {
+    background: url('../images/11.jpg') no-repeat;
+    background-size: 100%;
+    height: 16em;
+}
