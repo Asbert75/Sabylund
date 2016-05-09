@@ -39,12 +39,12 @@ $(window).load(function() {
 </head>
 
 
-<body>
+<body>    
 <div class="container">    
     <div class="row loga">
         <div class="col-lg-12">
-            <h1>SÄBYLUND</h1>
-            <p>KONST & ANTIK</p>
+            <h1 id="textShadows">SÄBYLUND</h1>
+            <h2>KONST & ANTIK</h2>
         </div>
     </div>
 	
@@ -55,54 +55,63 @@ $(window).load(function() {
 		<div class="col-lg-12">
 		<nav>
 			<ul>
-				<li class="navItem"><a href="#">Konst</a></li>
-				<li class="navItem"><a href="#">Antik</a></li>
-				<li class="navItem"><a href="#">Lokal</a></li>
+                <li class="navItem"><a href="index.html">Hem</a></li>
+				<li class="navItem"><a href="konst.php">Konst</a></li>
+				<li class="navItem"><a href="antik.html">Antik</a></li>
+				<li class="navItem"><a class="active" href="lokal.html">Lokal</a></li>
 			</ul>
 		</nav>
 		</div>
 	</div>
     
-    <div class="row mobileHide">
-        <div class="col-lg-12">
-            <a href="#" class="hoverbubble"><span>Facebook</span><div class="facebook"></div></a>
-            <a href="#" class="hoverbubble"><span>Instagram</span><div class="instagram"></div></a>
-            <a href="#" class="hoverbubble"><span>Kontakta Oss</span><div class="contact"></div></a>
-            <a href="#" class="hoverbubble"><span>Hitta Hit</span><div class="location"></div></a>
+    
+    
+   
+    
+    <div class="row indexParagraph">
+        <div class="col-lg-12 indexText">
+            <div class="col-lg-7">
+            <h2>"Ulf har uppdrag som illustratör och bildpedagog"</h2>
+            <p>Säbylund Konst & Antik ägs och drivs bl.a av konstnär Ulf Erixon. Han visar sina verk i gårdens galleri – när inte andra konstnärer arrangerar utställningar där. <br><br>
+Ulf har arbetat aktivt med konst sedan mitten av 70-talet med figurativ konst i varierande tekniker såsom akvarell, torr- och oljepastell, akryl och collage. Ulf har uppdrag som illustratör och bildpedagog. Han har bl.a. en BA från Konstfack, examensår 1984. <br><br>
+Fritt konstnärligt skapande och utställningar finns också utrymme för och sedan sin första separatutställning 1978 har han hunnit med många separatutställningar och deltagit i ett antal samlingsutställningar. Hans verk finns representerade på många stora företag i både Stockholm och Göteborg. 
+
+            </p>
+            </div>
+            
+            <div class="col-lg-5 mobileHide">
+            <img class="img-responsive" src="images/7.jpg" alt="Konst-bild">
+            </div>
         </div>
     </div>
     
-	<div class="row slider mobileHide">
-		<div class="col-lg-12 flexslider">
-			<ul class="slides">	
-				<li><img src="images/SliderImage.png" alt="Slider Image 1"/></li>
-				<li><img src="images/SliderImage2.png" alt="Slider Image 2"/></li>
-			</ul>
-			
-			<div class="custom-navigation">
-				<div class="col-lg-12 sliderNavigation">
-				<a href="#" class="flex-prev"><span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span></a>
-				<a href="#" class="flex-next"><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a>
-				</div>
-			</div>
-		</div>
-	</div>
+    
+        <div class="bildrad col-lg-10 col-lg-offset-1">
+            <div class="col-lg-4">
+                <div class="bild1"></div>
+            </div>
+            <div class="col-lg-4">
+                <div class="bild2"></div>
+            </div>
+            <div class="col-lg-4">
+                <div class="bild2"></div>
+            </div>
+        </div>
+      
 	    
-    <div class="row instagramFeed">
-        <div class="col-lg-7"><h2>INSTAGRAMFLÖDE <span class="instaEdge">/</span><a href="http://instagram.com/sabylund_konst_antik" class="instagramLink">SABYLUND_KONST_ANTIK</a></h2>
-        </div>
-        <div class="col-lg-12">
-            
-            <div class="mobileHide disableEvents">
-                <script src="http://snapwidget.com/js/snapwidget.js"></script>
-                <iframe src="http://snapwidget.com/bd/?u=c2FieWx1bmRfa29uc3RfYW50aWt8aW58MjUwfDN8NXx8bm98NXxub25lfG9uU3RhcnR8eWVzfHllcw==&ve=140416" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
-            </div>
-        </div>
-        
-        <div class="col-lg-12">
-            <div class="mobileShow instaFeed disableEvents">
-                    <iframe src="http://snapwidget.com/bd/?u=c2FieWx1bmRfa29uc3RfYW50aWt8aW58NTAwfDF8N3x8bm98MjB8bm9uZXxvblN0YXJ0fG5vfG5v&ve=140416" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:520px; height:4515px"></iframe>
-            </div>
+    <div class="row footer">
+        <div class="col-lg-4 col-lg-offset-4">
+            <footer>
+                <p>
+                    Säbylund Konst & Antik
+                <br>
+                    Säbyvägen 23, Tjörn. Tel nr. 070-566 93 75
+                </p>
+                
+                <p class="createdBy">
+                    Webbsida skapad av <a href="http://webdesign-sto.se">Webdesign STO</a>
+                </p>
+            </footer>
         </div>
     </div>
 	

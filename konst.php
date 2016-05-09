@@ -56,7 +56,7 @@ $(window).load(function() {
 		<nav>
 			<ul>
                 <li class="navItem"><a href="index.html">Hem</a></li>
-				<li class="navItem"><a class="active" href="konst.html">Konst</a></li>
+				<li class="navItem"><a class="active" href="konst.php">Konst</a></li>
 				<li class="navItem"><a href="antik.html">Antik</a></li>
 				<li class="navItem"><a href="lokal.html">Lokal</a></li>
 			</ul>
@@ -75,7 +75,6 @@ $(window).load(function() {
             <p>Säbylund Konst & Antik ägs och drivs bl.a av konstnär Ulf Erixon. Han visar sina verk i gårdens galleri – när inte andra konstnärer arrangerar utställningar där. <br><br>
 Ulf har arbetat aktivt med konst sedan mitten av 70-talet med figurativ konst i varierande tekniker såsom akvarell, torr- och oljepastell, akryl och collage. Ulf har uppdrag som illustratör och bildpedagog. Han har bl.a. en BA från Konstfack, examensår 1984. <br><br>
 Fritt konstnärligt skapande och utställningar finns också utrymme för och sedan sin första separatutställning 1978 har han hunnit med många separatutställningar och deltagit i ett antal samlingsutställningar. Hans verk finns representerade på många stora företag i både Stockholm och Göteborg. 
-
             </p>
             </div>
             
@@ -85,7 +84,17 @@ Fritt konstnärligt skapande och utställningar finns också utrymme för och se
         </div>
     </div>
     
+    <div class="row indexParagraph">
+        <div class="col-l-4 mobileHide">
+            <img class="img-responsive" src="images/calendar.png" alt="Calendar">
+        </div>
+        <div class="col-lg-6 col-lg-offset-1 indexText">
+            <h2>Information och kalendarium</h2>
+            <p><?php include "kalendariumText.php"; ?></p>
+        </div>
+    </div>
     
+    <div class="row">
         <div class="bildrad col-lg-10 col-lg-offset-1">
             <div class="col-lg-4">
                 <div class="bild1"></div>
@@ -97,6 +106,7 @@ Fritt konstnärligt skapande och utställningar finns också utrymme för och se
                 <div class="bild2"></div>
             </div>
         </div>
+    </div>
       
 	    
     <div class="row footer">
