@@ -65,7 +65,24 @@ $(window).load(function() {
 	</div>
     
     
-    
+    <div class="row indexParagraph information">
+        <div class="col-lg-4 col-lg-offset-1 mobileHide calenderMargin">
+            <img class="img-responsive" src="images/calendar.png" alt="Calendar">
+        </div>
+        <div class="col-lg-6">
+            <h2>Information och kalendarium</h2>
+            <pre id="kalendarium"><?
+                if(file_get_contents("kalendariumText.txt")) {
+                    echo file_get_contents("kalendariumText.txt");
+                }
+                else
+                {
+                    echo "Just nu har vi inget planerat att ta del av.";
+                }
+                ?>
+            </pre>
+        </div>
+    </div>
    
     
     <div class="row indexParagraph">
@@ -84,35 +101,37 @@ Fritt konstnärligt skapande och utställningar finns också utrymme för och se
         </div>
     </div>
     
-    <div class="row indexParagraph">
-        <div class="col-lg-4 col-lg-offset-1 mobileHide">
-            <img class="img-responsive" src="images/calendar.png" alt="Calendar">
-        </div>
-        <div class="col-lg-6">
-            <h2>Information och kalendarium</h2>
-            <pre id="kalendarium"><?
-                if(file_get_contents("kalendariumText.txt")) {
-                    echo file_get_contents("kalendariumText.txt");
-                }
-                else
-                {
-                    continue;
-                }
-                ?>
-            </pre>
-        </div>
-    </div>
-    
     <div class="row">
         <div class="bildrad col-lg-10 col-lg-offset-1">
-            <div class="col-lg-4">
-                <div class="bild1"></div>
+            <div class="col-lg-12 indexParagraph">
+                <h2>Konst av Ulf Erixon</h2>
             </div>
             <div class="col-lg-4">
-                <div class="bild2"></div>
+                <img class="img-responsive img-rounded item" src="images/Konst1.png" alt="Konst">
             </div>
+            
             <div class="col-lg-4">
-                <div class="bild2"></div>
+                <img class="img-responsive img-rounded item" src="images/Konst2.png" alt="Konst">
+            </div>
+            
+            <div class="col-lg-4">
+                <img class="img-responsive img-rounded item" src="images/Konst3.png" alt="Konst">
+            </div>
+            
+            <div class="col-lg-4">
+                <img class="img-responsive img-rounded item" src="images/Konst4.png" alt="Konst">
+            </div>
+            
+            <div class="col-lg-4">
+                <img class="img-responsive img-rounded item" src="images/Konst5.png" alt="Konst">
+            </div>
+            
+            <div class="col-lg-4">
+                <img class="img-responsive img-rounded item" src="images/Konst6.png" alt="Konst">
+            </div>
+            
+            <div class="col-lg-4">
+                <img class="img-responsive img-rounded item" src="images/Konst7.png" alt="Konst">
             </div>
         </div>
     </div>
