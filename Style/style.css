@@ -307,3 +307,12 @@ a.hoverbubble:hover span {
     background-size: 100%;
     height: 16em;
 }
+
+pre {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 0;
+    font-family: Verdana;
+    font-size: 1em;
+    white-space: pre-wrap;
+}

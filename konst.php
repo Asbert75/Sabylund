@@ -85,12 +85,21 @@ Fritt konstnärligt skapande och utställningar finns också utrymme för och se
     </div>
     
     <div class="row indexParagraph">
-        <div class="col-l-4 mobileHide">
+        <div class="col-lg-4 col-lg-offset-1 mobileHide">
             <img class="img-responsive" src="images/calendar.png" alt="Calendar">
         </div>
-        <div class="col-lg-6 col-lg-offset-1 indexText">
+        <div class="col-lg-6">
             <h2>Information och kalendarium</h2>
-            <p><?php include "kalendariumText.php"; ?></p>
+            <pre id="kalendarium"><?
+                if(file_get_contents("kalendariumText.txt")) {
+                    echo file_get_contents("kalendariumText.txt");
+                }
+                else
+                {
+                    continue;
+                }
+                ?>
+            </pre>
         </div>
     </div>
     

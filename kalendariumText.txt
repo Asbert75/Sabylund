@@ -1,0 +1,9 @@
+Här kan man lägga till text som automatiskt länkas in i konst.php dokumentet och visas på sidan där. Den har automatisk line-break men vill ni ha tidigare line-break får ni använda er av br i taggar som det finns exempel på ovan.
+
+Visning på A-Plan
+När? 12:e April 15.00
+Info: Vi kommer att ha en liten visning på skolans A-plan den 12 April från kl. 15.
+
+Visning på B-Plan
+När? 16 Maj 16.30
+Info: Vi har en till visning fast på ett annat ställe, nice va? Huehue xdppööö
