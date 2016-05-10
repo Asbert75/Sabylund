@@ -43,7 +43,7 @@ $(window).load(function() {
 <div class="container">    
     <div class="row loga">
         <div class="col-lg-12">
-            <h1 id="textShadows">SÄBYLUND</h1>
+            <h1>SÄBYLUND</h1>
             <h2>KONST & ANTIK</h2>
         </div>
     </div>
@@ -128,10 +128,6 @@ Fritt konstnärligt skapande och utställningar finns också utrymme för och se
             
             <div class="col-lg-4">
                 <img class="img-responsive img-rounded item" src="images/Konst6.png" alt="Konst">
-            </div>
-            
-            <div class="col-lg-4">
-                <img class="img-responsive img-rounded item" src="images/Konst7.png" alt="Konst">
             </div>
         </div>
     </div>

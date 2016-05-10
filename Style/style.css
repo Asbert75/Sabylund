@@ -311,7 +311,17 @@ pre {
 }
 
 .information {
-    margin-top: 4em;
+    margin-top: 3em;
     padding-top: 1em;
     background: rgba(196, 148, 120, 0.5);
+}
+
+.notice {
+    padding: 0.5em;
+    font-size: 1em;
+    font-family: Verdana;
+    color: white;
+    background: #C49478;
+    margin-bottom: 4em;
+    margin-top: 1em;
 }
