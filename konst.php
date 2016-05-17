@@ -95,7 +95,7 @@ Fritt konstnärligt skapande och utställningar finns också utrymme för och se
             </div>
             
             <div class="col-lg-5 mobileHide">
-            <img class="img-responsive" src="images/7.jpg" alt="Konst-bild">
+            <img class="img-responsive" src="images/7.jpg" alt="Fisk Konst">
             </div>
         </div>
     </div>
@@ -106,27 +106,27 @@ Fritt konstnärligt skapande och utställningar finns också utrymme för och se
                 <h2>Konst av Ulf Erixon</h2>
             </div>
             <div class="col-lg-4">
-                <img class="img-responsive img-rounded item" src="images/Konst1.png" alt="Konst">
+                <img class="img-responsive  item" src="images/Konst1.png" alt="Konst 1">
             </div>
             
             <div class="col-lg-4">
-                <img class="img-responsive img-rounded item" src="images/Konst2.png" alt="Konst">
+                <img class="img-responsive item" src="images/Konst2.png" alt="Konst 2">
             </div>
             
             <div class="col-lg-4">
-                <img class="img-responsive img-rounded item" src="images/Konst3.png" alt="Konst">
+                <img class="img-responsive item" src="images/Konst3.png" alt="Konst 3">
             </div>
             
             <div class="col-lg-4">
-                <img class="img-responsive img-rounded item" src="images/Konst4.png" alt="Konst">
+                <img class="img-responsive item" src="images/Konst4.png" alt="Konst 4">
             </div>
             
             <div class="col-lg-4">
-                <img class="img-responsive img-rounded item" src="images/Konst5.png" alt="Konst">
+                <img class="img-responsive item" src="images/Konst5.png" alt="Konst 5">
             </div>
             
             <div class="col-lg-4">
-                <img class="img-responsive img-rounded item" src="images/Konst6.png" alt="Konst">
+                <img class="img-responsive item" src="images/Konst6.png" alt="Konst 6">
             </div>
         </div>
     </div>
