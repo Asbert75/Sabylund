@@ -58,7 +58,6 @@ $(window).load(function() {
                 <li class="navItem"><a href="index.html">Hem</a></li>
 				<li class="navItem"><a class="active" href="konst.php">Konst</a></li>
 				<li class="navItem"><a href="antik.html">Antik</a></li>
-				<li class="navItem"><a href="lokal.html">Lokal</a></li>
 			</ul>
 		</nav>
 		</div>
