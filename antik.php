@@ -55,9 +55,9 @@ $(window).load(function() {
 		<div class="col-lg-12">
 		<nav>
 			<ul>
-                <li class="navItem"><a href="index.html">Hem</a></li>
+                <li class="navItem"><a href="index.php">Hem</a></li>
 				<li class="navItem"><a href="konst.php">Konst</a></li>
-				<li class="navItem"><a class="active" href="antik.html">Antik</a></li>
+				<li class="navItem"><a class="active" href="antik.php">Antik</a></li>
 			</ul>
 		</nav>
 		</div>
